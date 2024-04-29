@@ -1,3 +1,3 @@
 # React-Assignment
 
-[Will Change] https://sputnik.zone/school/Emote-Chat/
+https://sputnik.zone/school/Emote-Chat/
