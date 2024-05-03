@@ -11,7 +11,7 @@ function ChatBox(){
 
 	useEffect(() => {
 		async function fetchEmoteList(){
-		    let response = await fetch('https://sputnik.zone/sputnik/school/temp/react/emoteList.php');
+		    let response = await fetch('https://sputnik.zone/school/temp/react/emoteList.php');
 		    let emoteList = await response.json();
 		    setEmoteList(emoteList);
 		}
