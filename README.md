@@ -1,3 +1,3 @@
 # React-Assignment
 
-https://sputnik.zone/school/Emote-Chat/index.html
+https://sputnik.zone/school/Duck-Generator/
