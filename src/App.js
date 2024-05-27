@@ -1,10 +1,10 @@
 import './App.css';
-import ChatBox from './ChatBox.js';
+import DuckBox from './DuckBox.js';
 
 function App(){
 	return (
 		<div className="App">
-			<ChatBox/>
+			<DuckBox/>
 		</div>
 	);
 }

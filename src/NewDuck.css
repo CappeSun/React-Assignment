@@ -1,0 +1,9 @@
+.newDuck{
+	height: 600px;
+	display: block;
+}
+
+.newDuck > img{
+	height: 500px;
+	display: block;
+}
