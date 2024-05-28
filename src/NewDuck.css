@@ -1,9 +1,25 @@
 .newDuck{
-	height: 600px;
+	height: 400px;
+	width: 600px;
+	max-width: 90vw;
+	padding: 20px 0px 10px 0px;
+	margin: auto;
 	display: block;
 }
 
 .newDuck > img{
-	height: 500px;
+	height: 90%;
+	width: 100%;
+	margin-bottom: 10px;
+	object-fit: contain;
 	display: block;
+}
+
+.btnDiv{
+	width: fit-content;
+	margin: auto;
+}
+
+.btnDiv > button{
+	margin: 0px 2px;
 }

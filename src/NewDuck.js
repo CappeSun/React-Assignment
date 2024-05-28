@@ -17,8 +17,10 @@ function NewDuck({handleAdd}){
 	return (
 		<div className="newDuck">
 			<img src={newDuck} alt={newDuck}/>
-			<button onClick={() => handleAdd(newDuck)}>Pick Duck</button>
-			<button onClick={() => handleNewDuck()}>Another Duck</button>
+			<div className="btnDiv">
+				<button onClick={() => handleAdd(newDuck)}>Pick Duck</button>
+				<button onClick={() => handleNewDuck()}>Another Duck</button>
+			</div>
 		</div>
 	);
 }
